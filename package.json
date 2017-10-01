@@ -1,5 +1,5 @@
 {
-  "name": "jubo",
+  "name": "jubo-api",
   "version": "1.0.0",
   "description": "events",
   "main": "index.js",
@@ -14,21 +14,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jubo-app/jubo.git"
+    "url": "git+https://github.com/jubo-app/jubo-api.git"
   },
   "keywords": [
     "event",
     "events",
-    "jubo"
+    "jubo",
+    "api"
   ],
   "author": "James <jimkim777@gmail.com> (http://www.jameskim.io/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jubo-app/jubo/issues"
+    "url": "https://github.com/jubo-app/jubo-api/issues"
   },
-  "homepage": "https://github.com/jubo-app/jubo#readme",
+  "homepage": "https://github.com/jubo-app/jubo-api#readme",
   "devDependencies": {
     "commitizen": "2.9.6",
     "cz-conventional-changelog": "2.0.0"
+  },
+  "dependencies": {
+    "hapi": "16.6.2"
   }
 }

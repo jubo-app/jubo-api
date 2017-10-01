@@ -60,4 +60,4 @@ typings/
 .env
 
 # idea files
-.idea/
+.idea
