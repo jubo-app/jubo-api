@@ -9,6 +9,7 @@
     }
   },
   "scripts": {
+    "start": "nodemon src/index.js",
     "test:single": "mocha src/index.test.js",
     "commit": "git-cz"
   },
@@ -33,6 +34,7 @@
     "cz-conventional-changelog": "2.0.0"
   },
   "dependencies": {
-    "hapi": "16.6.2"
+    "hapi": "16.6.2",
+    "nodemon": "1.12.1"
   }
 }

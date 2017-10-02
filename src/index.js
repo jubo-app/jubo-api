@@ -1,8 +1,9 @@
 'use strict';
 
-const {
-  PORT
-} = process.env;
+// const {
+//   PORT
+// } = process.env;
+const PORT = 3000;
 
 const hapi = require('hapi');
 const server = new hapi.Server();
@@ -26,3 +27,4 @@ server.route({
 });
 
 server.start();
+console.log("runnin server on port ", PORT);

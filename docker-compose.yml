@@ -1,0 +1,11 @@
+version: "2"
+services:
+  node:
+    stdin_open: true
+    tty: true
+    restart: "unless-stopped"
+    build:
+      context: "."
+    volumes:
+      - ".:/opt/app"
+    env_file: ".env"
