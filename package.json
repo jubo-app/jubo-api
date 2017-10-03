@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jubo-app/jubo-api.git"
+    "url": "https://bitbucket.org/jubo-app/jubo-api"
   },
   "keywords": [
     "event",
@@ -23,12 +23,12 @@
     "jubo",
     "api"
   ],
-  "author": "James <jimkim777@gmail.com> (http://www.jameskim.io/)",
+  "author": "James <mrjimbot@gmail.com> (http://www.jameskim.io/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jubo-app/jubo-api/issues"
+    "url": "https://bitbucket.org/jubo-app/jubo-api/issues"
   },
-  "homepage": "https://github.com/jubo-app/jubo-api#readme",
+  "homepage": "https://bitbucket.org/jubo-app/jubo-api#readme",
   "devDependencies": {
     "commitizen": "2.9.6",
     "cz-conventional-changelog": "2.0.0"
